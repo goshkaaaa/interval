@@ -38,7 +38,7 @@ npm run build
 npm run preview
 ```
 
-Vite produces a static build in `dist/`. The GitHub Pages demo uses `/interval/` as its base path and deploys after the Verify workflow passes.
+Vite produces a static build in `dist/`. The GitHub Pages demo uses `/interval/` as its base path. Verify and Deploy demo workflows are included. The current demo uses a separately published `gh-pages` branch with a locally verified build. Select GitHub Actions as the Pages source to enable automatic deployments when Actions is available.
 
 ## Inside
 
